@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 200vh;
+  background-color: wheat; }
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  background-color: black;
+  height: 361.5vh; }
+
+.header {
+  display: flex;
+  flex-direction: column; }
+  .header-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+    color: blanchedalmond;
+    background-color: black;
+    font-weight: 700;
+    background-image: linear-gradient(to right bottom, #4841a1, black); }
+    .header-main-greet {
+      flex: 0 0 85%;
+      position: relative;
+      left: 1rem; }
+    .header-main-starticons {
+      display: flex;
+      flex: 0 0 15%;
+      justify-content: space-between;
+      position: relative;
+      right: 1rem; }
+  .header-musics {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 28%);
+    grid-gap: 0.2rem;
+    height: 25vh;
+    background-color: black; }
+    .header-musics-option {
+      height: 3rem;
+      background-color: rgba(255, 251, 251, 0.13);
+      box-shadow: 0 2rem 5rem rgba(39, 39, 39, 0.151);
+      display: flex;
+      flex: 0 0 50%;
+      color: blanchedalmond;
+      align-items: center;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin: 0 0.3rem; }
+      .header-musics-option-images {
+        height: 48px;
+        flex: 0 0 30%; }
+      .header-musics-option-text {
+        flex: 0 0 80%;
+        margin-left: 0.5rem; }
+
+.navigation-first {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-first-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-first-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-first-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-first-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-first-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-first-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-second {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-second-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-second-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-second-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-second-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-second-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-second-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-third {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-third-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-third-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-third-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-third-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-third-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-third-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-fourth {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-fourth-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-fourth-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-fourth-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-fourth-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-fourth-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-fourth-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-fifth {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-fifth-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-fifth-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-fifth-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-fifth-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-fifth-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-fifth-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-sixth {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-sixth-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-sixth-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-sixth-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-sixth-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-sixth-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-sixth-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-seventh {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-seventh-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-seventh-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-seventh-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-seventh-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-seventh-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-seventh-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-eighth {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-eighth-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-eighth-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-eighth-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-eighth-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-eighth-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-eighth-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-ninth {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-ninth-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-ninth-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-ninth-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-ninth-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-ninth-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-ninth-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.navigation-tenth {
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 0.5rem; }
+  .navigation-tenth-head {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .navigation-tenth-slidebar {
+    display: flex;
+    overflow-x: auto;
+    width: 380px;
+    height: 185px; }
+    .navigation-tenth-slidebar::-webkit-scrollbar {
+      display: none; }
+    .navigation-tenth-slidebar-options {
+      width: 150px;
+      flex-shrink: 0;
+      height: 100%; }
+      .navigation-tenth-slidebar-options-images {
+        height: 8.5rem; }
+      .navigation-tenth-slidebar-options-text {
+        font-size: 0.6rem;
+        font-weight: 300; }
+
+.footers {
+  color: blanchedalmond;
+  background-color: #363535;
+  margin-top: 1rem;
+  padding: 0.8rem; }
+  .footers-bars {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }

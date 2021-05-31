@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="/img/2111624.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Spotify-Mobile Clone</title>
+</head>
+<body>
+    <main class="container">
+        <div class="header">
+            <div class="header-main">
+                <p class="header-main-greet">Good evening</p>   
+                <div class="header-main-starticons">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note" viewBox="0 0 16 16">
+                        <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                        <path fill-rule="evenodd" d="M9 3v10H8V3h1z"/>
+                        <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                    </svg>
+                </div>         
+            </div>
+
+
+            <div class="header-musics">
+                <div class="header-musics-option">
+                    <img src="/img/likedsongs.png" alt="" class="header-musics-option-images">
+                    <p class="header-musics-option-text">Likes Songs</p>
+                </div>
+                <div class="header-musics-option">
+                    <img src="/img/chillout.jpeg" alt="" class="header-musics-option-images">
+                    <p class="header-musics-option-text">Chillout 2021</p>
+                </div>
+                <div class="header-musics-option">
+                    <img src="/img/ps4.jpeg" alt="" class="header-musics-option-images">
+                    <p class="header-musics-option-text">Royalty Free No Copyright Sounds</p> 
+                </div>
+                <div class="header-musics-option">
+                    <img src="/img/trailer.jpeg" alt="" class="header-musics-option-images">
+                    <p class="header-musics-option-text">Trailer Musix</p>
+                    
+                </div>
+                <div class="header-musics-option">
+                    <img src="/img/sleep.jpeg" alt="" class="header-musics-option-images">
+                    <p class="header-musics-option-text">Sleep Music</p>
+                    
+                </div>
+                <div class="header-musics-option">
+                    <img src="/img/week.jpeg" alt="" class="header-musics-option-images">
+                    <p class="header-musics-option-text">The Weeknd</p>                    
+                </div>
+            </div>
+
+            <div class="navigation-first">
+                <p class="navigation-first-head">Uniquely yours</p>
+                <div class="navigation-first-slidebar">
+                    <div class="navigation-first-slidebar-options">
+                        <img src="/img/on repeat.jpg" alt="" class="navigation-first-slidebar-options-images">
+                        <p class="navigation-first-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-first-slidebar-options">
+                        <img src="/img/time capsule.jpg" alt="" class="navigation-first-slidebar-options-images">
+                        <p class="navigation-first-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-first-slidebar-options">
+                        <img src="/img/repeat.jpg" alt="" class="navigation-first-slidebar-options-images">
+                        <p class="navigation-first-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-first-slidebar-options">
+                        <img src="/img/likedsongs.png" alt="" class="navigation-first-slidebar-options-images">
+                        <p class="navigation-first-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-first-slidebar-options">
+                        <img src="/img/topsongs.jpg" alt="" class="navigation-first-slidebar-options-images">
+                        <p class="navigation-first-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                </div>                
+            </div>
+
+
+            <div class="navigation-second">
+                <p class="navigation-second-head">Charts</p>
+                <div class="navigation-second-slidebar">
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/india50.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/global.jpg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/viral50.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/hothits.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/tophitstelugu.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/hindi.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/tophitshinid.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/tophitstelugu.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/tophitspunjab.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-second-slidebar-options">
+                        <img src="/img/punjabi.jpeg" alt="" class="navigation-second-slidebar-options-images">
+                        <p class="navigation-second-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                </div>                
+            </div> 
+
+            <div class="navigation-third">
+                <p class="navigation-third-head">Popular Albumns</p>
+                <div class="navigation-third-slidebar">
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/lutgye.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/chichore.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/baaghi2.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/bloodmoney.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/kabir.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/madmax.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/mirza.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/harry.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-third-slidebar-options">
+                        <img src="/img/sonu.jpeg" alt="" class="navigation-third-slidebar-options-images">
+                        <p class="navigation-third-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>                   
+                </div>                
+            </div> 
+
+            <div class="navigation-fourth">
+                <p class="navigation-fourth-head">For your listening pleasure</p>
+                <div class="navigation-fourth-slidebar">
+                    <div class="navigation-fourth-slidebar-options">
+                        <img src="/img/rock.jpeg" alt="" class="navigation-fourth-slidebar-options-images">
+                        <p class="navigation-fourth-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-fourth-slidebar-options">
+                        <img src="/img/yuvan.jpeg" alt="" class="navigation-fourth-slidebar-options-images">
+                        <p class="navigation-fourth-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-fourth-slidebar-options">
+                        <img src="/img/radar.jpeg" alt="" class="navigation-fourth-slidebar-options-images">
+                        <p class="navigation-fourth-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-fourth-slidebar-options">
+                        <img src="/img/loveuji.jpeg" alt="" class="navigation-fourth-slidebar-options-images">
+                        <p class="navigation-fourth-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-fourth-slidebar-options">
+                        <img src="/img/init.jpeg" alt="" class="navigation-fourth-slidebar-options-images">
+                        <p class="navigation-fourth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-fourth-slidebar-options">
+                        <img src="/img/marathi hits.jpeg" alt="" class="navigation-fourth-slidebar-options-images">
+                        <p class="navigation-fourth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>                    
+                </div>                
+            </div> 
+
+
+            <div class="navigation-fifth">
+                <p class="navigation-fifth-head">More of what you like</p>
+                <div class="navigation-fifth-slidebar">
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/maleartist.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/srk.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/punjabX.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/happy.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/sacred.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/lyrics.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/2.0.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/hiphop.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-fifth-slidebar-options">
+                        <img src="/img/winterlover.jpeg" alt="" class="navigation-fifth-slidebar-options-images">
+                        <p class="navigation-fifth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>                    
+                </div>                
+            </div>
+
+
+            <div class="navigation-sixth">
+                <p class="navigation-sixth-head">Summer Vibes</p>
+                <div class="navigation-sixth-slidebar">
+                    <div class="navigation-sixth-slidebar-options">
+                        <img src="/img/sundowner.jpeg" alt="" class="navigation-sixth-slidebar-options-images">
+                        <p class="navigation-sixth-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-sixth-slidebar-options">
+                        <img src="/img/shower.jpeg" alt="" class="navigation-sixth-slidebar-options-images">
+                        <p class="navigation-sixth-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-sixth-slidebar-options">
+                        <img src="/img/sumeer.jpeg" alt="" class="navigation-sixth-slidebar-options-images">
+                        <p class="navigation-sixth-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-sixth-slidebar-options">
+                        <img src="/img/popshots.jpeg" alt="" class="navigation-sixth-slidebar-options-images">
+                        <p class="navigation-sixth-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-sixth-slidebar-options">
+                        <img src="/img/beach.jpeg" alt="" class="navigation-sixth-slidebar-options-images">
+                        <p class="navigation-sixth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-sixth-slidebar-options">
+                        <img src="/img/challani.jpeg" alt="" class="navigation-sixth-slidebar-options-images">
+                        <p class="navigation-sixth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-sixth-slidebar-options">
+                        <img src="/img/silluni.jpeg" alt="" class="navigation-sixth-slidebar-options-images">
+                        <p class="navigation-sixth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                </div>                
+            </div>
+
+
+            <div class="navigation-seventh">
+                <p class="navigation-seventh-head">Based on your recent listening</p>
+                <div class="navigation-seventh-slidebar">
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/daily.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/workout.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/girls.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/hitsjust.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/likeyou.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/megahitsmiz.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/internet.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/redhits.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-seventh-slidebar-options">
+                        <img src="/img/popop.jpeg" alt="" class="navigation-seventh-slidebar-options-images">
+                        <p class="navigation-seventh-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>                    
+                </div>                
+            </div> 
+
+            <div class="navigation-eighth">
+                <p class="navigation-eighth-head">Made for Abhishek Srinivasan</p>
+                <div class="navigation-eighth-slidebar">
+                    <div class="navigation-eighth-slidebar-options">
+                        <img src="/img/dm1.jpeg" alt="" class="navigation-eighth-slidebar-options-images">
+                        <p class="navigation-eighth-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-eighth-slidebar-options">
+                        <img src="/img/dm2.jpg" alt="" class="navigation-eighth-slidebar-options-images">
+                        <p class="navigation-eighth-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-eighth-slidebar-options">
+                        <img src="/img/dm3.jpeg" alt="" class="navigation-eighth-slidebar-options-images">
+                        <p class="navigation-eighth-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-eighth-slidebar-options">
+                        <img src="/img/dm4.jpg" alt="" class="navigation-eighth-slidebar-options-images">
+                        <p class="navigation-eighth-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-eighth-slidebar-options">
+                        <img src="/img/dm5.jpeg" alt="" class="navigation-eighth-slidebar-options-images">
+                        <p class="navigation-eighth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-eighth-slidebar-options">
+                        <img src="/img/dm6.jpeg" alt="" class="navigation-eighth-slidebar-options-images">
+                        <p class="navigation-eighth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-eighth-slidebar-options">
+                        <img src="/img/radarsssss.jpeg" alt="" class="navigation-eighth-slidebar-options-images">
+                        <p class="navigation-eighth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>                    
+                </div>                
+            </div> 
+
+            <div class="navigation-ninth">
+                <p class="navigation-ninth-head">Best of artists</p>
+                <div class="navigation-ninth-slidebar">
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/mohit.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/armaan.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/arjit.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/neha.jpg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/yoyo.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/atif.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/vs.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/guru.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/shreya.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-ninth-slidebar-options">
+                        <img src="/img/dil.jpeg" alt="" class="navigation-ninth-slidebar-options-images">
+                        <p class="navigation-ninth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                </div>                
+            </div> 
+
+
+            <div class="navigation-tenth">
+                <p class="navigation-tenth-head">Grow & improve</p>
+                <div class="navigation-tenth-slidebar">
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/mp.jpeg" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">Songs you love right now</p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/wm.jpeg" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">We made you a personalized playlist with songs to take you..</p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/7 good.jpeg" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">Your past favorites</p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/goal.png" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text"><b>Liked songs</b></p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/mm.jpeg" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/poem.jpeg" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/words.jpeg" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/daily 1.jpeg" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/zues.jpg" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                    <div class="navigation-tenth-slidebar-options">
+                        <img src="/img/think.png" alt="" class="navigation-tenth-slidebar-options-images">
+                        <p class="navigation-tenth-slidebar-options-text">Songs that you loves this year, all wrapped up.</p>
+                    </div>
+                </div>                
+            </div>          
+        </div>  
+        
+        
+        <div class="footers">
+        
+            <div class="footers-bars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                </svg>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+    
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter-right" viewBox="0 0 16 16">
+                    <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"/>
+                </svg>
+            </div>
+        </div>
+        
+        
+
+
+    </main>
+    
+    
+
+</body>
+</html>
